@@ -27,19 +27,6 @@ public class SecretSanta{
         }
     }
 
-    public void createFiles(){
-        for (String player : players) {
-            try{
-                writer = new FileWriter("textfiles\\"+player);
-                writer.write(getText(player));
-                writer.close();
-            } catch (IOException e){
-                    System.out.println("Roor" + e);
-            }
-            
-        }
-    }
-
     public void createFilesHtml(String filename){
         for (String player : players) {
             try{
@@ -51,17 +38,6 @@ public class SecretSanta{
             }
             
         }
-    }
-
-    public String getText(String player){
-        String text = 
-        (
-            "God Jul och Gott Nytt År " + player + "!\n" + 
-            "Och förhoppningsvis en god fortsättning (Det som händer i Bålsta stannar i Bålsta) \n \n" +
-            
-            "Din present skall ges till: " + giftPaths.get(player)
-        );
-        return text;
     }
 
     public String getTextHtml(String player, String filename){

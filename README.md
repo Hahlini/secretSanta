@@ -19,5 +19,5 @@ java SecretSanta textfiles Bob Oliver Rudolph Will
 as an example. You can reach the html site by clicking on their name:
 * [Bob](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Bob.html)
 * [Oliver](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Oliver.html)
-* [Reudolph](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Rudolph.html)
+* [Rudolph](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Rudolph.html)
 * [Will](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Will.html)

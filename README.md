@@ -10,7 +10,7 @@ It should be used to set up games of secret santa. If you and your friend can't 
 
 The program will create a copy of the document "message.html" for each player where "PLAYER" is replaced with their name and "RECIPIENT" is replaced with their assigned person. I added an example to this repo that you can look at by [clicking here](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/message.html) by changing the file named message.html in the directory you could create your own messages. The program is run through the terminal by typing 
 ```
-"java SecretSanta <Names of all players seperated by whitespaces (" ")>
+"java SecretSanta <name of the folder where the documents will apper> <Names of all players seperated by whitespaces (" ")>
 ```
 In the folder textfiles i have left the results of "java SecretSanta Bob Oliver Rudolph Will" as an example. You can reach the html site by clicking on their name 
 

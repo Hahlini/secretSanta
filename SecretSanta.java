@@ -42,7 +42,6 @@ public class SecretSanta{
 
     public String getTextHtml(String player, String filename){
         String text = "";
-        player.replaceAll("_", " ");
         try{
             BufferedReader file = new BufferedReader(new FileReader(filename));
             String line = file.readLine();
@@ -58,7 +57,7 @@ public class SecretSanta{
 
         }
 
-        text = text.replaceAll("PLAYER", player).replaceAll("RECIPIENT", giftPaths.get(player));
+        text = text.replaceAll("PLAYER", player.replaceAll("_", " ")).replaceAll("RECIPIENT", giftPaths.get(player));
         return text;
     }
 

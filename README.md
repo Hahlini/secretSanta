@@ -8,7 +8,7 @@ It should be used to set up games of secret santa. If you and your friend can't 
 
 ### How does it work?
 
-The program will create a copy of the document "message.html" for each player. I added an example to this repo that you can look at by [clicking here](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/message.html) by changing the file named message.html in the directory you could create your own messages. The program is run through the terminal by typing 
+The program will create a copy of the document "message.html" for each player where "PLAYER" is replaced with their name and "RECIPIENT" is replaced with their assigned person. I added an example to this repo that you can look at by [clicking here](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/message.html) by changing the file named message.html in the directory you could create your own messages. The program is run through the terminal by typing 
 ```
 "java SecretSanta <Names of all players seperated by whitespaces (" ")>
 ```

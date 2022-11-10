@@ -12,8 +12,10 @@ The program will create a copy of the document "message.html" for each player wh
 ```
 "java SecretSanta <folder name> <Names of all players seperated by whitespaces (" ")>
 ```
-In the folder textfiles i have left the results of "java SecretSanta textfiles Bob Oliver Rudolph Will" as an example. You can reach the html site by clicking on their name 
-
+In the folder textfiles i have left the results of 
+```
+"java SecretSanta textfiles Bob Oliver Rudolph Will" as an example. You can reach the html site by clicking on their name 
+```
 * [Bob](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Bob.html)
 * [Oliver](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Oliver.html)
 * [Reudolph](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Rudolph.html)

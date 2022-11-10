@@ -11,9 +11,8 @@ The program will create a copy of the document "message.html" for each player. I
 "java SecretSanta <Names of all players seperated by whitespaces (" ")>
 ```
 In the folder textfiles i have left the results of "java SecretSanta Bob Oliver Rudolph Will" as an example. You can reach the html site by clicking on their name 
-```
-[Bob](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Bob.html)
-[Oliver](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Oliver.html)
-[Rudolph](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Rudolph.html)
-[WIll](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Will.html)
-```
+
+*[Bob](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Bob.html)
+*[Oliver](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Oliver.html)
+*[Rudolph](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Rudolph.html)
+*[WIll](http://htmlpreview.github.io/?https://github.com/Hahlini/secretSanta/blob/master/textfiles/Will.html)

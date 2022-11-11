@@ -2,7 +2,7 @@
 
 ### What does this program do?
 
-It should be used to set up games of secret santa. If you and your friend can't meet up to set up the game irl it's very nice to have a program that does it. Otherwise the person setting it up risks seeing who someone is supposed to give presents to. This program makes one html file for each player and hides who they are supposed to buy a present for within the document. No one should look in someone elses document and you don't even need to verify that the game "works" since the random algorithm in SecretSanta.java guarantees that no player will get themselves, that no two players will get the same person and that everybody will have a secret santa. Below you'll find an example of what the file could could look like:  
+It can be used to set up games of secret santa. If you and your friends can't meet up to set up the game irl it's very nice to have a program that does it. Otherwise the person setting it up risks seeing who someone is supposed to give presents to. This program makes one html file for each player and hides who they are supposed to buy a present for within the file. No one should look in someone elses file and you don't need to verify that the game "works" since the random algorithm in SecretSanta.java guarantees that no player will get themselves, that no two players will get the same person and that everybody will have a secret santa. Below you'll find an example of what the file could could look like:  
   
 <img src="/images/ExampleLetter.PNG" width="400">
 

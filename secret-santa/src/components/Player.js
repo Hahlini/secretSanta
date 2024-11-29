@@ -13,15 +13,15 @@ const Player = (props) => {
     }
 
     return (
-      <p>
-        Du ska ge en present till: {props.map.get(props.name)}
+      <p style={{marginBottom : 8}}>
+        Ditt ovärdeliga uppdrag är att leverera en gåva till {props.map.get(props.name)}
       </p>
     )
   }
 
   return (
     <div>
-      <h2>Hello {props.name}!</h2>
+      <h2>God Jul {props.name}!</h2>
       {text()}
     </div>
   )

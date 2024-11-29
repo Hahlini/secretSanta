@@ -24,7 +24,7 @@ const Login = (props) => {
                     onChange={handleInputChange}
                     placeholder="Skriv ditt namn"
                 />
-                <button onClick={handleSubmit}>Submit</button>
+                <button onClick={handleSubmit}>OK</button>
             </div>
         ) : (
             <Player name = {name} map = {props.map}/>

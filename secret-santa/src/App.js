@@ -1,23 +1,27 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Login from './components/Login';
 
-export const createMapping = (playerList) => {
-  
-    const map = new Map();
-    const shuffledPlayers = playerList.sort(() => Math.random() - 0.5);
-
-    for (let i = 0; i < shuffledPlayers.length - 1; i++) {
-        map.set(shuffledPlayers[i], shuffledPlayers[i+1]);
-    }
-
-    map.set(shuffledPlayers[shuffledPlayers.length - 1] = shuffledPlayers[0]); 
-
-    return map
+const jsonToMap = (data) => {
+  return (new Map(Object.entries(data)));
 }
 
 const App = () => {
-  
-  const map = createMapping(["Axel", "Elisabeth", "Johan"]);
+  const [map, setMap] = useState(null);
+
+  useEffect(() => {
+    fetch('http://localhost:5000/api/gift-mapping')
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      setMap(jsonToMap(data));
+    })
+  }, []);
+
+  useEffect(() => {
+    if (map) {
+      console.log(map);  // This will now log the updated map
+    }
+  }, [map]);
 
   return (
     <div>

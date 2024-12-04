@@ -1,5 +1,4 @@
 export const createMapping = (playerList) => {
-  
     let jsonMap = {};
     const shuffledPlayers = playerList.sort(() => Math.random() - 0.5);
 

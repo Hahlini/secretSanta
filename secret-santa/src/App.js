@@ -20,7 +20,7 @@ const App = () => {
 
   useEffect(() => {
     if (map) {
-      console.log(map);  // This will now log the updated map
+      console.log(map); 
     }
   }, [map]);
 
